@@ -4,6 +4,13 @@ body {
     background-size: cover;
     background-position: center;
 }
+h1{
+  text-align: center;
+  color: rgb(19, 16, 16);
+  font-size: 60px;
+}
+ 
+  
 .topnav {
     background-color: rgba(29, 27, 27, 0.151);
     overflow: hidden;
