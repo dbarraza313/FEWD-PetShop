@@ -6,13 +6,23 @@ body {
 }
 h1{
   text-align: center;
-  color: rgb(19, 16, 16);
+  color: white;
   font-size: 60px;
   font-family: Arial, Helvetica, sans-serif;
 }
 h2{
   text-align: center;
+  color: white;
 }
+h3{
+  text-align: center;
+  color: white;
+}
+h4{
+  text-align: center;
+}
+
+
 .flex-container {
   display: flex; 
   flex-direction: column;
@@ -60,7 +70,7 @@ img{
       display: block;
   } 
   
-  @media all and (min-width: 768px){
+  @media screen and (min-width: 768px){
     .flex-container {
       flex-direction: row;
     }
@@ -68,6 +78,12 @@ img{
       display: flex;
       min-width: 50%;
     }
+  @media screen and (max-width: 600px){
+    .topnav a{
+      float: none;
+      width: 100%;
+    }
+  }
 
     
   }
@@ -76,7 +92,7 @@ img{
       display: block;
       text-align: left;
     }
-  }
+  
 img{
     width: 100%;
 }

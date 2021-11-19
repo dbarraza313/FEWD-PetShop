@@ -73,3 +73,5 @@ Please ask your mentors if you have any questions on project requirements.
 Photos by: Karsten Winegeart, Hannah Lim, Andrew Pons, Verdian Chua, Алексей Мойса on Unsplash.com
 
 https://unsplash.com/@karsten116?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText
+
+My website is a for a dog grooming website. I have included a header bar with an interactive hamburger bar. I have two images which are in a flexbox that switch from horizontal to veritical view. I also incorporated java script in my contact form validation. It wil dispay a confirmation message when a correct email is entered and display an error message when an incorrect email is entered. 
